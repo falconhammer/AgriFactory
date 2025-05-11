@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "agrifactory",
+	"version": "${version}",
+	"name": "AgriFactory",
+	"description": "A tech mod based around harvesting all too many crops",
+	"authors": [
+		"Falconhammer"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/agrifactory/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"agrifactory.AgriFactory"
+		],
+		"client": [
+			"agrifactory.client.AgriFactoryClient"
+		],
+		"fabric-datagen": [
+			"agrifactory.AgriFactoryDataGenerator"
+		]
+	},
+	"mixins": [
+		"agrifactory.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
