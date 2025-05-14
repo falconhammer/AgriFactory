@@ -1,6 +1,7 @@
 package agrifactory;
 
 import agrifactory.block.ModBlocks;
+import agrifactory.item.ModItemGroup;
 import agrifactory.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,7 +14,8 @@ public class AgriFactory implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
+		ModItemGroup.initialize();
+		ModItems.initialize();
+		ModBlocks.initialize();
 	}
 }

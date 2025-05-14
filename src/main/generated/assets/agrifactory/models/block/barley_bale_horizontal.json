@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "agrifactory:block/barley_bale_top",
+    "side": "agrifactory:block/barley_bale_side"
+  }
+}

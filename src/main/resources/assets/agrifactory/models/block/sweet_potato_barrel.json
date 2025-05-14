@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_bottom_top",
-  "textures": {
-    "side": "agrifactory:block/sweet_potato_barrel_side",
-    "top": "agrifactory:block/sweet_potato_barrel_top",
-    "bottom": "agrifactory:block/sweet_potato_barrel_bottom"
-  }
-}

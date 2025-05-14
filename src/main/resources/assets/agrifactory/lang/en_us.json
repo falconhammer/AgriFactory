@@ -2,5 +2,8 @@
   "item.agrifactory.sweet_potato": "Sweet Potato",
   "item.agrifactory.barley": "Barley",
 
-  "block.agrifactory.sweet_potato_barrel": "Sweet Potato Barrel"
+  "block.agrifactory.sweet_potato_barrel": "Sweet Potato Barrel",
+  "block.agrifactory.barley_bale": "Barley Bale",
+  "itemGroup.agrifactory_items": "AgriFactory Items",
+  "itemGroup.agrifactory_blocks": "AgriFactory Blocks"
 }
